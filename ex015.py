@@ -1,0 +1,5 @@
+print('Parabéns! Você acaba de receber um aumento de 15%, digite seu salário atual para saber o quanto aumentou.')
+s = int(input('Digite seu salário: '))
+a = int(s / 100 * 15)
+sf = int(s + a)
+print('Seu novo salário com 15% de aumento é: {}R$'.format(sf))
