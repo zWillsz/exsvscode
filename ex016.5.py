@@ -1,0 +1,6 @@
+al = float(input('Qual a altura da sua parede? '))
+l = float(input('Qual a largura da sua parede? '))
+a = int (al * l)
+print('a metragem quadrada é: {} m2 '.format(a))
+tn = int(a / 2)
+print('Você vai precisar de: {} L de tinta'.format(tn))

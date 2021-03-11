@@ -1,0 +1,6 @@
+f1 = input('Digite seu Nome Completo: ')
+print('Seu nome completo todo em maisúsculas: {}'.format(f1.upper()))
+print('Seu nome completo todo em minúsculas: {}'.format(f1.lower()))
+dividido = f1.split()
+print('Total de letras: {}'.format(len("".join(dividido))))
+print('Total de letras no Primeiro Nome:{}'.format(len(dividido[0])))
